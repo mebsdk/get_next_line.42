@@ -26,7 +26,7 @@ int	ft_eol(const char *s)
 }
 
 /***************************************\
-*          	 	FT_SANL 	            *
+*         	FT_SANL                *
 \***************************************/
 void	ft_sanl(char *sr, int i)
 {
@@ -58,7 +58,7 @@ char	*ft_strdup(const char *s)
 }
 
 /***************************************\
-*			GET_NEXT_LINE			    *
+*	      GET_NEXT_LINE	       *
 \***************************************/
 char	*get_line(int fd)
 {
