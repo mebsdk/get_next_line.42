@@ -66,7 +66,7 @@ char	*get_line(int fd)
 	char		*join;
 	int			x;
 
-	if (fd < 0 || BUFFER_SIZE <= 0 || fd > 256)
+	if (fd < 0 || BUFFER_SIZE <= 0 || fd > 1024)
 		return (NULL);
 	join = ft_strdup(sr_fd[fd]);
 	while (!ft_memchr(join, '\n', BUFFER_SIZE) && join)
